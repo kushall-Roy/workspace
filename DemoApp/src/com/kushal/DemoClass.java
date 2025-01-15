@@ -7,10 +7,13 @@ public class DemoClass {
 		
 		for(int ele : a) {
 			System.out.println(ele);
-		}
-		
+		}		
 		String name = "Sachin";
 		int count = name.toUpperCase().length();
-		System.out.println("The length of the String is :: "+count);		
+		System.out.println("The length of the String is :: "+count);
+		
+		StringBuffer sb = new StringBuffer("Sachin Tendulkar");
+		int length = sb.append("INDMI").reverse().length();
+		System.out.println("Length is :: "+length);
 	}
 }
